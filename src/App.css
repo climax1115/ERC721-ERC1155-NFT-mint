@@ -1,0 +1,173 @@
+html,
+body {
+    overflow-x: hidden
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000 !important;
+}
+
+.flex-imp {
+    display: flex !important;
+}
+
+.slick-slide>div {
+    margin: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .slick-slide>div {
+        margin: 15px 15px 15px 15px;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #FFF !important;
+}
+
+.dzu-inputLabel {
+    color: rgba(113, 128, 150, var(--tw-text-opacity)) !important;
+}
+
+.dzu-dropzone {
+    border: 3px dashed rgb(204, 204, 204) !important;
+    min-height: 250px !important;
+    overflow: auto !important;
+}
+
+.dzu-previewImage {
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.dzu-previewButton {
+    background-size: 100%!important;
+    width: 20px!important;
+    height: 20px!important;
+    margin: 0px !important;
+}
+
+.dzu-previewContainer {
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 5px !important;
+    height: 244px !important;
+}
+
+.dzu-previewStatusContainer {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #ffffff85 !important;
+    padding: 8px !important;
+    border-radius: 100px !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.home-container .nfts-container img, .detail-container .detail-img img {
+    display: block;
+    width: 100% !important;
+}
+
+.home-container .nfts-container .thumbnail {
+    height: 295px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E7E9EB;
+}
+
+.home-container .nfts-container .slick-slide>div{
+    margin: 5px !important;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+}
+
+.profile-container .detail-img img {
+    display: block;
+    min-height: 320px !important;
+    width: 100% !important;
+}
+
+.profile-container .detail-img {
+    height: 320px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profile-container .detail-img video {
+    width: '100%';
+    border-radius: 10px;
+}
+
+.detail-container .detail-img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-container .more-artists-img {
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E7E9EB;
+}
+
+.detail-container .more-artists-img img {
+    display: block;
+    height: 230px;
+    width: 100% !important;
+}
+
+.current__launchpad__item {
+    opacity: 0.6;
+}
+
+.current__launchpad__item:hover {
+    opacity: 1;
+}
+
+.mint-container input:focus-visible, .mint-container textarea:focus-visible {
+    border: 1px solid black !important;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* .slick-cloned {
+    display: none !important;
+} */
+
+.slick-track {
+    margin-left: 0px !important;
+}
